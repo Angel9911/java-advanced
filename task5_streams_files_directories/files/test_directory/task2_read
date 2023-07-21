@@ -1,0 +1,3 @@
+A simple text scanner
+that can parse primitive types and strings:
+ using regular expressions.
