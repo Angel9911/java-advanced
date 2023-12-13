@@ -5,7 +5,7 @@ import java.io.File;
 public class task6_file_class {
     public static void main(String[] args) {
 
-        File file = new File("");
+        File file = new File("E:\\Programs\\SpringAngularProject\\angular7-springboot-crud-tutorial-master\\Interview-tasks\\src\\interview_tasks_paysafe\\object_oriented\\softuni\\java_advanced\\task5_streams_files_directories\\files");
 
         if(file.exists()){
             if(file.isDirectory()){

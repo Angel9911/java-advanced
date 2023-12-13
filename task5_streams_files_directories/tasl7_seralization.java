@@ -12,7 +12,7 @@ public class tasl7_seralization {
         Cube cube = new Cube("red",2,2,2);
         Cube cube2 = new Cube("black",2,2,2);
 
-        String path = "";
+        String path = "E:\\Programs\\SpringAngularProject\\angular7-springboot-crud-tutorial-master\\Interview-tasks\\src\\interview_tasks_paysafe\\object_oriented\\softuni\\java_advanced\\task5_streams_files_directories\\files\\Cube.ser";
 
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(new FileOutputStream(path));
         objectOutputStream.writeObject(cube);

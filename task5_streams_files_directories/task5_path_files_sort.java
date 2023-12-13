@@ -10,8 +10,8 @@ import java.util.TreeSet;
 public class task5_path_files_sort {
     public static void main(String[] args) throws IOException {
 
-        String pathIn = "";
-        String outPut = "s";
+        String pathIn = "E:\\Programs\\SpringAngularProject\\angular7-springboot-crud-tutorial-master\\Interview-tasks\\src\\interview_tasks_paysafe\\object_oriented\\softuni\\java_advanced\\task5_streams_files_directories\\files\\task5_input";
+        String outPut = "E:\\Programs\\SpringAngularProject\\angular7-springboot-crud-tutorial-master\\Interview-tasks\\src\\interview_tasks_paysafe\\object_oriented\\softuni\\java_advanced\\task5_streams_files_directories\\files\\task5_output";
 
         Path readPath = Paths.get(pathIn);
         Path writePath = Paths.get(outPut);

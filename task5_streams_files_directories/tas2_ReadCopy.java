@@ -6,8 +6,9 @@ import java.io.IOException;
 
 public class tas2_ReadCopy {
     public static void main(String[] args) {
-        String raadFile = "";
-        String copyFile = "";
+        String raadFile = "E:\\Programs\\SpringAngularProject\\angular7-springboot-crud-tutorial-master\\Interview-tasks\\src\\interview_tasks_paysafe\\object_oriented\\softuni\\java_advanced\\task5_streams_files_directories\\files\\task2_read";
+        String copyFile = "E:\\Programs\\SpringAngularProject\\angular7-springboot-crud-tutorial-master\\Interview-tasks\\src\\interview_tasks_paysafe\\object_oriented\\softuni\\java_advanced\\task5_streams_files_directories\\files\\task2_copy";
+
         try {
 
             FileInputStream fileInputStream = new FileInputStream(raadFile);

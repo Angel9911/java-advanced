@@ -8,8 +8,8 @@ import java.util.Scanner;
 
 public class task3_char_streams {
     public static void main(String[] args) {
-        String readFile = "";
-        String fileNumbers = "";
+        String readFile = "E:\\Programs\\SpringAngularProject\\angular7-springboot-crud-tutorial-master\\Interview-tasks\\src\\interview_tasks_paysafe\\object_oriented\\softuni\\java_advanced\\task5_streams_files_directories\\files\\task3_char_streams";
+        String fileNumbers = "E:\\Programs\\SpringAngularProject\\angular7-springboot-crud-tutorial-master\\Interview-tasks\\src\\interview_tasks_paysafe\\object_oriented\\softuni\\java_advanced\\task5_streams_files_directories\\files\\task3_extract_numbers";
 
         // FileRead and FileWrite are char streams
         // The main difference between char stream and byte streams(FileInput/OutputStream) is that the first stream

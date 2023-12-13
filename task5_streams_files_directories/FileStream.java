@@ -10,7 +10,7 @@ import java.util.Set;
 
 public class FileStream {
     public static void main(String[] args) throws IOException {
-        String path = "";
+        String path = "E:\\Programs\\SpringAngularProject\\angular7-springboot-crud-tutorial-master\\Interview-tasks\\src\\interview_tasks_paysafe\\object_oriented\\softuni\\java_advanced\\task5_streams_files_directories\\files\\input.txt";
 
         FileInputStream fileInputStream = null;
         try {
@@ -31,7 +31,7 @@ public class FileStream {
         }
 
         // make a change - skip punctuation and store it in a new existing file.
-        String newChangeFilePath = "";
+        String newChangeFilePath = "E:\\Programs\\SpringAngularProject\\angular7-springboot-crud-tutorial-master\\Interview-tasks\\src\\interview_tasks_paysafe\\object_oriented\\softuni\\java_advanced\\task5_streams_files_directories\\files\\input_skip_punctuation.txt";
         Set<Character> punctuation = new HashSet<>();
         Collections.addAll(punctuation,'.','!',',',':');
         try {

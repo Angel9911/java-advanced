@@ -6,8 +6,8 @@ import java.util.Scanner;
 public class task4_buffered_streams {
     public static void main(String[] args) throws IOException {
 
-        String readFile = "";
-        String writeFile = "";
+        String readFile = "E:\\Programs\\SpringAngularProject\\angular7-springboot-crud-tutorial-master\\Interview-tasks\\src\\interview_tasks_paysafe\\object_oriented\\softuni\\java_advanced\\task5_streams_files_directories\\files\\task4_buffered_stream";
+        String writeFile = "E:\\Programs\\SpringAngularProject\\angular7-springboot-crud-tutorial-master\\Interview-tasks\\src\\interview_tasks_paysafe\\object_oriented\\softuni\\java_advanced\\task5_streams_files_directories\\files\\task4_buffered_stream_write";
 
         Scanner scanner = null;
         PrintWriter printWriter = null;
